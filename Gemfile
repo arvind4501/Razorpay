@@ -56,8 +56,12 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-gem 'spree', '~> 4.3', '>= 4.3.1'
-gem 'spree_backend', '~> 4.3', '>= 4.3.1'
-gem 'spree_frontend', '~> 4.3', '>= 4.3.1'
-gem 'spree_sample', '~> 4.3', '>= 4.3.1'
-gem 'spree_auth_devise', '~> 4.3', '>= 4.3.1'
+# Spree
+gem 'spree', '~> 4.3.2'
+gem 'spree_frontend', ' ~> 4.3.2'
+gem 'spree_backend', '~> 4.3.2'
+gem 'spree_emails', '>= 4.3'
+gem 'spree_auth_devise', '~> 4.3'
+gem 'spree_gateway', '~> 3.9'
+gem 'spree_i18n', '~> 5.0'
+gem 'deface'
